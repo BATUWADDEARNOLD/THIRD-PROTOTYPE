@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.5;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav, footer {
+    background-color: bisque;
+    padding: 30px;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    color: black;
+}
+
+nav a {
+    background-color: blue;
+    color: white;
+    padding: 5px 35px;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.welcome {
+    width: 80%;
+    text-align: center;
+    color: white
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: x-large;
+}
+
+.services {
+    width: 90%;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 32%;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service-item img {
+    border-radius: 10px;
+}
+
+.services-offered {
+   width: 80%;
+   color: black;
+   margin: 50px auto;
+   }
+
+   ul li {
+    font-size: x-large;
+   }
